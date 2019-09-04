@@ -1,5 +1,0 @@
-<testExecutions version="1">
-<file path="test/index.test.js">
-<testCase name="Fake Test: Should Return 4" duration="0"/>
-</file>
-</testExecutions>
