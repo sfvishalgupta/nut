@@ -4,7 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "nyc --reporter=html --reporter=text mocha"
+    "test": "nyc --reporter=html --reporter=text mocha",
+    "test1": "mocha --reporter mocha-sonarqube-reporter test --reporter-options output=xunit.xml"
   },
   "repository": {
     "type": "git",
@@ -19,6 +20,7 @@
   "devDependencies": {
     "chai": "^4.2.0",
     "mocha": "^6.2.0",
+    "mocha-sonarqube-reporter": "^1.0.1",
     "nyc": "^14.1.1"
   }
 }
