@@ -1,0 +1,23 @@
+{
+  "name": "nut",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "node_modules/.bin/mocha test/index.test.js --timeout 100000000"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sfvishalgupta/nut.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/sfvishalgupta/nut/issues"
+  },
+  "homepage": "https://github.com/sfvishalgupta/nut#readme",
+  "devDependencies": {
+    "chai": "^4.2.0",
+    "mocha": "^6.2.0"
+  }
+}
