@@ -1,7 +1,7 @@
 'use strict';
 
 const expect = require('chai').expect;
-const UTILS = require("../index");
+const UTILS = require("../src/index");
 
 describe("Fake Test", () => {
     it("Should Return 4", () => {
